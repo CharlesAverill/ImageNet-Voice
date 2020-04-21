@@ -1,6 +1,17 @@
 # ImageNet Voice
 This dataset is derived from ImageNet, and contains synthetic recordings of TTS voices saying each ImageNet label 200 times. This is more or less a toy dataset, but can be very useful for projects with little-to-no data.
 
+### Usage
+After installing with `python3 -m pip install imagenet-voice`, ImageNet-Voice can be imported and used like most other datasets:
+```python
+import imagenet_voice
+
+X, y = imagenet_voice.load(progress=True, download_data=True)
+```
+The [Python package](https://pypi.org/project/imagenet-voice/) includes 3 loading functions:
+- `load(progress, download_data)` - Load the entire dataset. If `progress`, display a progressbar. If `download_data`, git clone the dataset.
+- `load_classes(classes, progress, download_data)` - Loads only the classes in the provided `classes` list.
+- `load_n(n, random, progress, download_data)` - Loads `n` classes, alphebtically unless `random=True`.
 
 ### Content
 
