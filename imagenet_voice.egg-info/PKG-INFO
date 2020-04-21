@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: imagenet-voice
-Version: 0.32.0
+Version: 0.51.1
 Summary: A collection of synthetic audio files containing spoken labels from ImageNet
 Home-page: https://github.com/CharlesAverill/ImageNet-Voice/
 Author: Charles Averill

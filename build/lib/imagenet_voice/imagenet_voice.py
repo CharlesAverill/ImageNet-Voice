@@ -8,7 +8,7 @@ import numpy as np
 
 
 def __download_dataset():
-    confirmation = input("Estimated download size: 2 GB\nAre you sure you want to download this dataset? (y/n) ")
+    confirmation = input("Estimated download size: 3.18 GB\nAre you sure you want to download this dataset? (y/n) ")
     if "y" in confirmation.lower():
         print("Cloning from https://github.com/CharlesAverill/ImageNet-Voice.git ...")
         os.system("git clone https://github.com/CharlesAverill/ImageNet-Voice.git")

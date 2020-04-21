@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='imagenet_voice',
-    version='0.32.0',
+    version='0.51.1',
     scripts=['./imagenet_voice/__init__.py'],
     author="Charles Averill",
     author_email="charlesaverill20@gmail.com",
